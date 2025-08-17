@@ -4,7 +4,7 @@ class Node():
         self.data = data 
         self.next = None
 
-class Linketlist():
+class LinkedList():
     def __init__(self):
         self.head = Node()
         self.size = 0
@@ -111,21 +111,6 @@ class Linketlist():
                 cur_node = cur_node.next
         return -1
 
-    
 
-
-mylist= Linketlist()
-
-
-mylist.append(4)
-mylist.append(6)
-mylist.append(45)
-mylist.append(13)
-mylist.append(32)
-mylist.append(89)
-mylist.append(32)
-mylist.sort()
-mylist.display()
-print(mylist.indexof(89))
 
 
